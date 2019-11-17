@@ -1,7 +1,10 @@
 # You Better Know It
 
-- [version control](https://coderefinery.org/lessons/)
 - [GitHub Help](https://help.github.com/en/github)
+- [version control](https://coderefinery.org/lessons/)
+- [Git branch design lesson](https://coderefinery.github.io/git-branch-design/)
+- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
+
 
 We first “stage” the change (git add), then shoot (git commit).
 The best commit messages I’ve seen don’t just explain what they’ve changed: they explain why.
@@ -51,4 +54,39 @@ $ git diff another_file.py        # diff w.r.t. checkpoint 4
 $ git checkout another_file.py    # oops go back to checkpoint 4
 $ git commit                      # commit everything that is staged
 ```
+
+### [Sharing repositories online](https://coderefinery.github.io/git-collaborative/)
+
+A remote is treated the same as a branch, you can also push changes to the remote and pull from the remote.
+```bash
+$ git remote add origin https://github.com/user/recipe.git
+$ git push -u origin master
+$ git clone https://github.com/user/recipe.git
+
+$ git log --reverse   #
+$ git show b3f33c5d   # display the changeset for the second commit
+$ git log --oneline source/wordcount.py  # check the git log of a single file
+$ git log --oneline --follow source/wordcount.py
+$ git grep -i percentage
+$ git blame source/wordcount.py   # fun and useful command to find out when a specific line got introduced and by whom
+$ git log --oneline  --grep "word count"   # some keywords from the commit message
+$ git log -S test_calculate_word_counts    # find when test_calculate_word_counts  was removed
+$ git log/grep/blame/show/bisect is a powerful combination when doing archaeology in a project.
+$ git checkout -b <name> <hash> is the recommended mechanism to inspect old code
+
+```
+
+### Frequent situation: interrupted work
+  create branches or stash.
+  The stash is the first and easiest place to temporarily “stash” things.
+```bash
+git stash will put working directory and staging area changes away. Your code will be same as last commit.
+git stash pop will return to the state you were before. Can give it a list.
+git stash list will list the current stashes.
+git stash save NAME is like the first, but will give it a name. Useful if it might last a while.
+git stash save [-p] [filename] will stash certain files files and/or by patches.
+git stash drop will drop the most recent stash (or whichever stash you give).
+The stashes form a stack, so you can stash several batches of modifications.
+```
+
 
