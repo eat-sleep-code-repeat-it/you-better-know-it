@@ -27,3 +27,21 @@ $ git checkout <path>  # check out the latest staged version ( or committed
                        # version if file has not been staged )
 ```
 
+### Recommendation:
+
+* git add every change that improves the code.
+* git checkout every change that made things worse.
+* git commit as soon as you have created a nice self-contained unit (not too large, not too small).
+* Discuss/think about what is too large or too small.
+
+```bash
+$ git add file.py                 # checkpoint 1
+$ git add file.py                 # checkpoint 2
+$ git add another_file.py         # checkpoint 3
+$ git add another_file.py         # checkpoint 4
+# ... further work on another_file.py ...
+$ git diff another_file.py        # diff w.r.t. checkpoint 4
+$ git checkout another_file.py    # oops go back to checkpoint 4
+$ git commit                      # commit everything that is staged
+```
+
