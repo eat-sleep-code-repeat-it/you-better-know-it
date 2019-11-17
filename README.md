@@ -27,6 +27,8 @@ $ git reset            # unstages staged changes
 $ git reset --hard dd4472c   # git reset command is one of the destructive commands in Git, so use with caution.
 $ git checkout <path>  # check out the latest staged version ( or committed
                        # version if file has not been staged )
+        # git checkout as an operation that brings the working tree to a specific state.
+        # The state can be a commit or a branch (pointing to a commit).
 ```
 
 ### Recommendation:
