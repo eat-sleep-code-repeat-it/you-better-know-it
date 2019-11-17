@@ -3,7 +3,9 @@
 - [version control](https://coderefinery.org/lessons/)
 - [GitHub Help](https://help.github.com/en/github)
 
-We first “stage” the change (git add), then shoot (git commit):
+We first “stage” the change (git add), then shoot (git commit).
+The best commit messages I’ve seen don’t just explain what they’ve changed: they explain why.
+
 ```bash
 $ git init    # initialize new repository
 $ git add     # add files or stage file(s)
