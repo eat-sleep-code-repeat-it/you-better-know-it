@@ -23,6 +23,7 @@ $ git show    # show the change for a specific commit
 $ git mv      # move tracked files
 $ git rm      # remove tracked files
 $ git reset            # unstages staged changes
+$ git reset --hard dd4472c   # git reset command is one of the destructive commands in Git, so use with caution.
 $ git checkout <path>  # check out the latest staged version ( or committed
                        # version if file has not been staged )
 ```
