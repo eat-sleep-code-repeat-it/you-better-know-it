@@ -88,5 +88,17 @@ git stash save [-p] [filename] will stash certain files files and/or by patches.
 git stash drop will drop the most recent stash (or whichever stash you give).
 The stashes form a stack, so you can stash several batches of modifications.
 ```
+### Rebase vs. merge
 
+Advantages and disadvantages
+```bash
+git rebase makes “merges” producing a linear history.
+git merge resolves all conflicts in a single commit
+git rebase each commit may need conflict resolution, git rebase may invalidate tests.
+git merge preserves chronology of commits and creates explicit merge commits (unless fast-forward).
+git rebase can change chronology of commits.
 
+*** When working with others do not rebase commits that other people depend on (history has changed).
+Rebasing creates nice linear history without merge commits, but is associated with potential risks.
+```
+https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had
