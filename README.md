@@ -17,6 +17,7 @@ $ git status  # see what is going on
 $ git log     # see history
 $ git log --oneline only shows the first 7 characters of the commit hash and is good to get an overview.
 $ git log --stat is nice to show which files have been modified.
+$ git branch # show where we are (where HEAD points to) 
 $ git diff    # show unstaged/uncommitted modifications
 $ git diff --staged    # see **staged** changes
 $ git show    # show the change for a specific commit
