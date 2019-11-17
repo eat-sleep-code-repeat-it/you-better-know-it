@@ -1,4 +1,4 @@
-# you-better-know-it
+# You Better Know It
 
 - [version control](https://coderefinery.org/lessons/)
 - [GitHub Help](https://help.github.com/en/github)
