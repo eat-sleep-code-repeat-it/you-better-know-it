@@ -29,6 +29,9 @@ $ git checkout <path>  # check out the latest staged version ( or committed
                        # version if file has not been staged )
         # git checkout as an operation that brings the working tree to a specific state.
         # The state can be a commit or a branch (pointing to a commit).
+$ git checkout <currentbranch>
+$ git merge master      # merge changes from master to current branch
+$ git merge --abort     # undo the half-finished merge
 ```
 
 ### Recommendation:
