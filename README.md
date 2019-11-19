@@ -7,7 +7,8 @@
 - [Git Workflow - Merge vs. Rebase](https://frontend.turing.io/lessons/module-2/merge-vs-rebase.html?ads_cmpid=6451354298&ads_adid=76255849919&ads_matchtype=b&ads_network=g&ads_creative=378042327747&utm_term=&ads_targetid=dsa-416714872696&utm_campaign=&utm_source=adwords&utm_medium=ppc&ttv=2&gclid=EAIaIQobChMIoei-o4_15QIVjMhkCh0d1wyxEAAYAiAAEgJpGvD_BwE)
 - [Git Book: Merge vs Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 - [Atlassian: Merge vs Rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) "The golden rule of git rebase is to never use it on public branches."
--
+- [Git Merge vs. Rebase: What’s the Diff?](https://hackernoon.com/git-merge-vs-rebase-whats-the-diff-76413c117333)
+- [Git Rebase vs. Merge: Which Is Better?](https://www.perforce.com/blog/vcs/git-rebase-vs-merge-which-better)
 
 
 We first “stage” the change (git add), then shoot (git commit).
