@@ -9,7 +9,7 @@
 - [Atlassian: Merge vs Rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) "The golden rule of git rebase is to never use it on public branches."
 - [Git Merge vs. Rebase: What’s the Diff?](https://hackernoon.com/git-merge-vs-rebase-whats-the-diff-76413c117333)
 - [Git Rebase vs. Merge: Which Is Better?](https://www.perforce.com/blog/vcs/git-rebase-vs-merge-which-better)
-
+- [ASP.NET Core 2 Succinctly](https://www.syncfusion.com/ebooks/aspnet-core-2-succinctly/asp-net-core-basics)
 
 We first “stage” the change (git add), then shoot (git commit).
 The best commit messages I’ve seen don’t just explain what they’ve changed: they explain why.
