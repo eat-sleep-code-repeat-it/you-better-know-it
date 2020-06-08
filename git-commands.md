@@ -5,7 +5,7 @@ https://accu.org/content/conf2009/PeterSommerlad_DesignPatternsC++.pdf
 https://link.springer.com/book/10.1007/978-1-4842-3603-1
 http://www.uml.org.cn/c++/pdf/DesignPatterns.pdf
 
-# You Better Know It
+# Git Commands
 
 - [GitHub Help](https://help.github.com/en/github)
 - [version control](https://coderefinery.org/lessons/)
