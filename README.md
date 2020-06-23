@@ -24,3 +24,4 @@
 - https://www.dotnettricks.com/learn/designpatterns
 - https://docs.microsoft.com/en-us/archive/msdn-magazine/2001/july/design-patterns-solidify-your-csharp-application-architecture-with-design-patterns
 - https://refactoring.guru/design-patterns/csharp
+- https://github.com/adamsitnik/awesome-dot-net-performance
