@@ -2,6 +2,9 @@
 
 ### [Git Commands](git-commands.md)
 
+### Typescript Deep Dive
+https://basarat.gitbook.io/typescript/future-javascript/promise
+
 ### [ProfessionalCSharp](ProfessionalCSharp.md)
 
 ### Design Pattern in C++
